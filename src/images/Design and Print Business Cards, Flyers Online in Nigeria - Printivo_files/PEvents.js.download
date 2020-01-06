@@ -1,0 +1,1 @@
+(function(ga,window){window.PEvents={register:function(label){ga('send','event','Acquisition','register',label,1);}}})(ga,window);

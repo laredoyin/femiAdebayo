@@ -1,0 +1,258 @@
+body{
+    margin-top: 2rem;
+}
+
+header{
+    background: #03a9f4;
+    text-align:center
+}
+
+.logo{
+    color: #fff;
+    font-size:40px;
+    font-family: georgia;
+    margin-top: 2rem;
+    
+}
+
+header input{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+.container .btn {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00AFEF;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color:#00AFEF ;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+    
+    
+    color: black;
+}
+
+
+
+
+
+.circle-num {
+    width: 35px;
+    height: 35px;
+    background: #444;
+    color: #fff;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.circle-num{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+
+
+input[type=text], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+   
+    
+   
+
+}
+
+input[type=update] {
+  width: 25%;
+  background-color:   #ec268f;
+  color: white;
+  padding: 15px 35px;
+  margin: 8px 0;
+
+  border-radius: 5px;
+  cursor: pointer;
+   
+    
+}
+input[type=ordernow] {
+  width: 30%;
+  background-color:   #ec268f;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+   
+    
+}
+input[type=register] {
+  width: 25%;
+  background-color:  #00b3f2;
+  color: white;
+  padding: 15px 35px;
+  margin: 8px 0;
+
+  border-radius: 5px;
+  cursor: pointer;
+    margin-left: 5rem;
+    
+}
+input[type=proceedtocart] {
+  width: 25%;
+  background-color:  green;
+  color: white;
+  padding: 15px 35px;
+  margin: 8px 0;
+
+  border-radius: 5px;
+  cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+
+input[type=signup] {
+  width: 25%;
+  background-color:  #ec268f;
+  color: white;
+  padding: 15px 35px;
+  margin: 4px 0;
+
+  border-radius: 5px;
+  cursor: pointer;
+    margin-left: 10rem;
+    
+}
+
+input[type=submit]:hover {
+  background-color: #00b3f2;
+}
+
+.femi {
+ 
+  
+  padding: 20px;
+}
+label{
+    font-weight: 500;
+}
+
+a hover:{
+    background-color: #ec268f;
+}
+    
+
+.col {
+  display: inline-block;
+  border-right: 1px solid gray;
+  padding: 5px;
+}
+
+.col:last-child {
+  border-right: none;
+}
+
+.col.input-control {
+  padding-right: 40px;
+}
+.box1 form {
+  width: 180px;
+  border: 1px solid ;
+  margin: 0;
+  display: flex;
+   float: right;
+    border-radius: 10px;
+}
+
+.features{
+    margin-bottom: 32px;
+    margin-top: 2rem;
+}
+ul{
+    list-style: none;
+    list-style-image: none;
+}
+
+.feature.included {
+    color: #555;
+}
+
+ .feature:before {
+   
+  
+  font-family: "Font Awesome 5 Free";
+    content: "\f14a";
+    color: #ec268f;
+    padding-right: 12px;
+}
+/* Small (sm) */
+
+
+/* Medium (md) */
+@media (min-width: 768px) {}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    }
+    
+
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {  }
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+    .femi{
+        display: none;
+        margin-top: -5rem;
+    }
+    .tope{
+        display: none;
+    }
+    .sola{
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+    .femi{
+        display: none;
+        
+    }
+    
+}
