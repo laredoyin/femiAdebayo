@@ -1,5 +1,4 @@
 import React,{ Component} from 'react';
-import '../css/styles.css';
 import '../css/tailwind.css';
 import  profileImage from '../images/profile.png';
 class Header extends Component{
@@ -11,8 +10,8 @@ render(){
             
             <h1 className="mt-3" style={{fontSize: '0.8rem'}}><b>Adebayo Oluwafemi</b></h1>
             <div className="border" style={{width: '15rem', borderColor: 'black', marginRight: '3rem',marginTop: '1rem'}}></div>
-            <div className="femi">
-           <a href="profile2.html"> <ul className="" style={{color:'#ec268f',fontWeight: '600', lineHeight: '2rem' , fontSize: '0.8rem'}}>PROFILE</ul></a>
+            <div className="hidden md:block">
+           <a href="profile2.html" style={{color:'#ec268f',fontWeight: '600', lineHeight: '2rem' , fontSize: '0.8rem'}}>PROFILE</a><br/>
             
              <a href="/" style={{fontWeight: '600', lineHeight: '2rem', fontSize: '0.8rem'}}>ADDRESSES</a><br/>
             <a href="/" style={{fontWeight: '600', lineHeight: '2rem', fontSize: '0.8rem'}}>MY WALLET</a><br/>
