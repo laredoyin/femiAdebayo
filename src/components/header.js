@@ -66,8 +66,12 @@ render(){
             <button style={{paddingTop: '0.7rem',  paddingLeft: '0.8rem',  color:'#fff'}}>Edit</button>
             </div>
                 </div>
-            
-            </div>
+
+          
+
+
+</div>
+
 
 
          
