@@ -16,7 +16,7 @@ class BusinessCard extends Component {
     return (
       <div>
         <div>
-          <img src={Business} alt='business-image' className="w-full h-auto " />
+          <img src={Business} alt='business' className="w-full h-auto " />
         </div>
         <h1 className="text-center mt-5 md:text-4xl" style={{ color: '#01b0f0' }}><b>Choose Product</b></h1>
         <div className="md:flex mx-20">
@@ -28,11 +28,11 @@ class BusinessCard extends Component {
              or have a team design your business cards at a <br />friendly fee.
             </p>
             <div className="my-2 mx-4 text-center">
-              <h1><b>Material</b>- 300 gsm matte card paper stock with 600 gsm options.</h1>
+              <p><b>Material</b>- 300 gsm matte card paper stock with 600 gsm options.</p>
             <br />
-            <h1><b>Finishing</b> - Matte Lamination with round corner options</h1>
+            <p><b>Finishing</b> - Matte Lamination with round corner options</p>
             <br/>
-             <h1> <b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities</h1>
+             <p> <b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities</p>
            </div>
             <p className="font-bold text-center">Starting at <span className="line-through font-bold">₦5,500.00</span>,
            <br/>
@@ -53,14 +53,14 @@ class BusinessCard extends Component {
               Customise one of our templates, upload your own<br /> pre-designed files or have our in-house designers<br />
               create something awesome for you.</p>
             <div className="my-2 mx-4 text-center">
-              <h1><b>Material</b> - 300 gsm matte card paper stock with 600 gsm options</h1>
+              <p><b>Material</b> - 300 gsm matte card paper stock with 600 gsm options</p>
             <br/>
-            <h1> <b>Finishing</b> - Matte Lamination with round corner options</h1>
+            <p> <b>Finishing</b> - Matte Lamination with round corner options</p>
             <br/>
-            <h1> <b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities</h1>
+            <p> <b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities</p>
            </div>
             <div className="font-bold text-center">
-             <h1> Starting at <span className="line-through font-bold">₦6,999.00</span></h1>
+             <p> Starting at <span className="line-through font-bold">₦6,999.00</span></p>
               <br />
               <span style={{ color: '#ec268f' }}>₦4,999.00</span>
             </div>
@@ -80,14 +80,14 @@ class BusinessCard extends Component {
               design team help you fix something beautiful.
             </p>
             <div className="my-2 mx-4 text-center">
-              <h1><b>Material</b> - 300 gsm matte card paper stock with 600 gsm options</h1>
+              <p><b>Material</b> - 300 gsm matte card paper stock with 600 gsm options</p>
             <br/>
-            <h1><b>Finishing</b> - Matte Lamination with round corner options</h1>
+            <p><b>Finishing</b> - Matte Lamination with round corner options</p>
             <br/>
-            <h1><b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities</h1>
+            <p><b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities</p>
             </div>
             <div className="font-bold text-center">
-            <h1> Starting at <span className="line-through font-bold">₦5,000.00.</span></h1>
+            <p> Starting at <span className="line-through font-bold">₦5,000.00.</span></p>
               <br />
               <span style={{ color: '#ec268f' }}>₦3,000.00</span>
             </div>
@@ -109,14 +109,14 @@ class BusinessCard extends Component {
             upload your own designs. You can also have a<br/> 
             design team come up with something <br />awesome for you.</p>
             <div className="my-2 mx-4 text-center">
-              <h1><b>Material</b> - 300 gsm matte card paper stock with 600 gsm options</h1>
+              <p><b>Material</b> - 300 gsm matte card paper stock with 600 gsm options</p>
            <br/>
            <h1><b>Finishing</b> - Matte Lamination with round corner options</h1>
            <br/>
-           <h1><b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities</h1>
+           <p><b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities</p>
               </div>
             <div className="font-bold text-center">
-              <h1>Starting at <span className="line-through font-bold">₦6,999.00</span></h1>
+              <p>Starting at <span className="line-through font-bold">₦6,999.00</span></p>
            <br/>
               <span style={{ color: '#ec268f' }}>₦4,999.00</span>
             </div>
@@ -137,14 +137,14 @@ class BusinessCard extends Component {
             at a friendly fee.
             </p>
             <div className="my-2 mx-4 text-center">
-              <h1><b>Material</b> - 300 gsm matte card paper stock with 600 gsm options.</h1>
+              <p><b>Material</b> - 300 gsm matte card paper stock with 600 gsm options.</p>
             <br/>
-            <h1> <b>Finishing</b> - Matte Lamination with round corner options</h1>
+            <p> <b>Finishing</b> - Matte Lamination with round corner options</p>
            <br/>
-           <h1><b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities.</h1>
+           <p><b>Delivery</b> - 3 - 5 working days for Lagos, 5 - 7 working days for other cities.</p>
            </div>
             <div className="font-bold text-center">
-            <h1>  Starting at <span className="line-through font-bold">₦5,000.00</span>,</h1>
+            <p>  Starting at <span className="line-through font-bold">₦5,000.00</span></p>
             <br/>
               <span style={{ color: '#ec268f' }}>₦3,000.00</span>
               </div>
@@ -163,7 +163,7 @@ class BusinessCard extends Component {
           <div className="md:flex">
             <div className="md:flex mr-5 ml-10 mt-10 mb-5">
               <div className="">
-                <img src={Customer1} alt='image' classname=":w-4\/12 " style={{ height: '30%', borderRadius: '5rem' }} />
+                <img src={Customer1} alt='cus2' classname=":w-4\/12 " style={{ height: '30%', borderRadius: '5rem' }} />
               </div>
               <div className="">
                 <p>All our business cards  <span style={{ color: '#01b0f0' }}><b>@Hotelng</b></span> are<br/>
@@ -175,7 +175,7 @@ class BusinessCard extends Component {
             </div>
             <div className="md:flex  ml-10 mr-10 mt-10 mb-5">
               <div>
-                <img src={Customer1} alt='image' classname=":w-4\/12 " style={{ height: '30%', borderRadius: '5rem' }} />
+                <img src={Customer1} alt='cus1' classname=":w-4\/12 " style={{ height: '30%', borderRadius: '5rem' }} />
               </div>
               <div className="mr-10">
                 <p><span style={{ color: '#01b0f0' }}><b>@Printivo</b></span> got an order delivered in 2<br/> 
@@ -186,8 +186,8 @@ class BusinessCard extends Component {
               </div>
             </div>
             <div className="md:flex mr-10 ml-10  mt-10 mb-5">
-              <div className="">
-                <img src={Customer3} alt='image' classname=":w-4\/12 " style={{ height: '30%', borderRadius: '5rem' }} />
+              <div>
+                <img src={Customer3} alt='cus3' classname=":w-4\/12 " style={{ height: '30%', borderRadius: '5rem' }} />
               </div>
               <div className="">
                 <p>
@@ -211,18 +211,18 @@ class BusinessCard extends Component {
             <p className="mt-2">Every day we hand out a tiny brochure about our <br/>
             businesses without even realizing it. Look at the stacks<br/>
             on your desk, the deck in your drawer or the stash in<br /> your wallet. Business cards, in all sizes, shapes and <br/>
-            colors, are everywhere. And yet, while we ll understand... <br /><a href="" style={{ color: '#ec268f' }}>Read More</a>
+            colors, are everywhere. And yet, while we ll understand... <br /><a href="/" style={{ color: '#ec268f' }}>Read More</a>
             </p>
           </div>
           <div className="mr-8 mb-10">
             <img src={Tip2} alt='tip1' />
             <h1 className="md:text-1xl mt-2"><b>Take These Seven Business Cards Tips<br /> Seriously</b></h1>
-            <p className="mt-2">A simple business card will beat anyone, simplicity they<br /> say, is the ultimate sophistication. Creating a business<br /> card that is simple, unique and void of unnecessary<br /> graphic elements will make your business look classy<br /> and will be taken seriously... <br /><a href="" style={{ color: '#ec268f' }}>Read More</a></p>
+            <p className="mt-2">A simple business card will beat anyone, simplicity they<br /> say, is the ultimate sophistication. Creating a business<br /> card that is simple, unique and void of unnecessary<br /> graphic elements will make your business look classy<br /> and will be taken seriously... <br /><a href="/" style={{ color: '#ec268f' }}>Read More</a></p>
           </div>
           <div className="ml-1 mb-10">
             <img src={Tip3} alt='tip1' />
             <h1 className="md:text-1xl mt-2"><b>Five Reasons You Should Print Business<br /> Cards For Your Employees.</b></h1>
-            <p className="mt-2">  Let’s start by saying this, the business card is not a <br />piece of paper reserved for key players in an<br /> organisation. It is a communication material that will <br />help to move your business forward, build your brand<br /> and bring in new business. A business card ... <br /><a href="" style={{ color: '#ec268f' }}>Read More</a></p>
+            <p className="mt-2">  Let’s start by saying this, the business card is not a <br />piece of paper reserved for key players in an<br /> organisation. It is a communication material that will <br />help to move your business forward, build your brand<br /> and bring in new business. A business card ... <br /><a href="/" style={{ color: '#ec268f' }}>Read More</a></p>
           </div>
         </div>
       </div>
